@@ -9,7 +9,7 @@ const Header = () => {
                     <nav class="navbar navbar-expand-lg bg-body-white ">
                               <div className="container d-flex align-items-center mb-3">
                                         <div className="me-auto p-2">
-                                                  <img style={{height: 45}} src={logo} alt="" />
+                                                  <img style={{height: 45}} src={logo} alt="onion logo" />
                                               
                                         </div>
                                         <div className='p-2 navPart2'>
