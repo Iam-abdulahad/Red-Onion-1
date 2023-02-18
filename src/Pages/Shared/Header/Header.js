@@ -12,7 +12,7 @@ const Header = () => {
                                                   <img style={{height: 45}} src={logo} alt="" />
                                               
                                         </div>
-                                        <div className='p-2'>
+                                        <div className='p-2 navPart2'>
                                                   <img src={cartIcon} alt="" />
                                                   <Link to='/login' >Login</Link>
                                                   <Link to='/signup' >SignUp</Link>

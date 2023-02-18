@@ -1,0 +1,29 @@
+.navPart2 {
+          font-size: 20px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-weight: 500;
+}
+
+.navPart2 a {
+          text-decoration: none;
+          margin-left: 20px;
+          color: black;
+}
+
+.navPart2 a:hover {
+          color: white;
+          padding: 5px 9px 5px 9px;
+          background-color: red;
+          border: 0px solid red;
+          border-radius: 15px;
+}
+
+.sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+}
+
+.sticky+.content {
+          padding-top: 60px;
+}
