@@ -1,7 +1,7 @@
 .bannerSection {
           background-image: url("../../images/bannerbackground.png");
           height: 750px;
-          width: 100%;
+          width: full-width;
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -18,20 +18,20 @@
           color: black;
 }
 
-.hero-text h2{
+.hero-text h2 {
           font-size: 50px;
           margin-bottom: 20px
 }
 
-.hero-text input{
+.hero-text input {
           border: none;
           border-radius: 30px;
           width: 500px;
           padding: 15px 50px 15px 10px;
 }
 
-.hero-text button{
-          margin-left:-35px ;
+.hero-text button {
+          margin-left: -35px;
           padding: 15px 35px 15px 35px;
           border: none;
           border-radius: 30px;
@@ -39,4 +39,25 @@
           color: white;
           text-align: center;
           align-items: center;
+}
+
+
+#foodMenu {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+}
+
+#foodMenu a {
+          text-decoration: none;
+          padding-left: 40px;
+          margin-top: 30px;
+          color: black;
+          font-size: 25px;
+          font-weight: 600;
+}
+
+.active-link {
+          color: hsl(96, 82%, 35%);
 }
